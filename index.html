@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header class = "header">
+        <div class="logo">LOGO</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="button">Download CV</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Hi, I'm Afifa</h1>
+            <p>A Creative <span class="highlight">Designer</span> based in <span class="highlight">Chattogram</span></p>
+            <p>As a passionate and skilled Creative Designer, I bring my unique vision and expertise to every project I undertake. With a strong foundation in design principles and a deep understanding of user needs, I strive to create visually stunning and highly functional designs that captivate audiences and drive business success</p>
+            <div class="img">
+                <img src="s.jpg" alt="Profile Picture" class="responsive">
+            </div>
+
+                <div class="buttons">
+                  <a href="#portfolio" class="button">Portfolio ↗</a>
+                  <a href="#contact" class="button">Hire Me</a>
+                </div>
+              
+            <div class="social-media">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>            
+        </div>
+    </section>
+
+
+    <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-content">
+            <h2>ABOUT ME</h2>
+            <p>I'm a passionate Creative Designer with a knack for crafting visually compelling and impactful designs. I bring my creative vision to life across various mediums, helping brands and businesses communicate effectively and leave a lasting impression.</p>
+          </div>
+          <div class="experience-container">
+            <div class="experience-icon">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="experience-text">10 Years Experience</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="exp">
+        <div class="exp-container">
+          <div class="my-exp">
+            <h2>MY EXPERIENCE</h2>
+            <p>I'm a passionate Creative Designer with a knack for crafting visually compelling and impactful designs. I bring my creative vision to life across various mediums, helping brands and businesses communicate effectively and leave a lasting impression.</p>
+          </div>
+          <div class="exp-timeline">
+            <div class="timeline-item">
+              <h3>LEAD UI/UX DESIGNER</h3>
+              <p>2018 - Present</p>
+              <p>-Rolling Thunder</p>
+            </div>
+            <div class="timeline-item">
+              <h3>SENIOR UI/UX DESIGNER</h3>
+              <p>2018 - 2010</p>
+              <p>-Locost Accessories</p>
+            </div>
+            <div class="timeline-item">
+              <h3>JUNIOR UI/UX DESIGNER</h3>
+              <p>2008 - 2006</p>
+              <p>-Sagebrush</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="nav">
+            <button>UI/UX</button>
+            <button class="active">Web Design</button>
+            <button>App Design</button>
+            <button>Graphic Design</button>
+        </div>
+        <div class="content">
+            <div class="case-study">
+                <h3>UX case study</h3>
+                <h2>Bally Website Research</h2>
+                <p>Explored the user experience of the Bally website, identifying pain points and opportunities for improvement. Conducted user research, competitive analysis, and prototyping to craft a more intuitive and engaging online presence.</p>
+                <p>Leveraged design principles and user-centered design methodologies to enhance the website's information architecture, navigation, and overall usability.</p>
+                <p>The redesigned Bally website showcases a cohesive brand identity, improved user flow, and seamless e-commerce integration, delivering a delightful experience for the brand's customers.</p>
+                <img src="./image/ux1.jpeg" alt="Bally Website" width="500" height="600">
+            </div>
+            <div class="case-study">
+                <h3>UX case study</h3>
+                <h2>Bally Website Research</h2>
+                <p>Designed a mobile application for a leading wellness brand, focusing on enhancing the user experience and promoting healthy lifestyle habits.</p>
+                <p>Conducted user research, including interviews and usability testing, to understand the target audience's pain points and preferences.</p>
+                <p>Developed a clean, intuitive, and visually appealing user interface that encourages user engagement and fosters long-term habit formation. The app features seamless navigation, personalized content, and integration with wearable devices for a holistic wellness experience.</p>
+                <br>
+                <br>
+                <img src="./image/ux2.jpeg" alt="Bally Website" width="500" height="600">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="contact-header">
+            <p>Contact</p>
+            <h2>REACH OUT ME</h2>
+            <h3>ANY PROJECT?</h3>
+        </div>
+        <div class="contact-form">
+            
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Name" id="name" name="name">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message"></label>
+                    <textarea id="message" placeholder="Message" name="message"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="file-upload" class="custom-file-upload">
+                        <i class="fa fa-paperclip"></i> Attach File
+                    </label>
+                    <input id="file-upload" type="file"/>
+                </div>
+                <button type="submit">Submit now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <h1>LOGO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 <span>Afifa</span> All Rights Reserved, Inc.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
